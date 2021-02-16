@@ -16,8 +16,8 @@ Switch: I connected the center pin to Ground on the breadboard and one of the ot
 Joystick: I connected GND to Ground, +5V to power on the breadboard, VRX to GPIO 13, VRY to GPIO 12 and SW to GPIO 14.
 ## How To Run (Step by Step):
 ### ESP32 code<br />
-Upload the .io file to your ESP32 (or other micro controller). Make sure that you find the correct port that is being used. The way I did this one the Raspberry Pi was by using the command <br/>
-`ls /dev/tty*`
+Upload the .io file to your ESP32 (or other micro controller). Make sure that you find the correct port that is being used. The way I did this on the Raspberry Pi was by using the command <br/>
+`ls /dev/tty*`<br/>
 Run the command and then unplug your ESP32. Whichever one dissapears is the port the your ESP32 was using.
 ### Python
 Replace the port on line 8 with whatever port your ESP32 is using. Then run the python script
